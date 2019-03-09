@@ -11,3 +11,18 @@
   justify-content: center;
   color: white;
 }
+
+p{padding-bottom:10px;}
+
+.loader {
+  text-align: center;
+  width:250px;
+  margin: auto;
+}
+.loader span {
+  display: inline-block;
+  height: 32px;
+  padding-top:6px;
+  vertical-align: top;
+}
+

@@ -1,20 +1,18 @@
 import React from 'react';
 import loading from '../loading.gif';
 
-class Loader extends React.Component {
+export default class Loader extends React.Component {
     render () {
         return (
-            <div>
+            <div className = 'loader'>
                 <img
                     alt = ''
                     height = '32px'
                     src = { loading }
                     width = '32px'
                 />
-                <span>Завантаження {this.props.title}...</span>
+                <span>Loading...</span>
             </div>
         );
     }
 }
-
-export default Loader;
