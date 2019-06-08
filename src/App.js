@@ -38,7 +38,7 @@ class App extends Component {
     _fetchCards = async () => {
         this._setFetchingState(true);
 
-        const response = await fetch('http://demo4452328.mockable.io/properties');
+        const response = await fetch('https://demo4452328.mockable.io/properties');
 
         const { data: cardsArray } = await response.json();
 
